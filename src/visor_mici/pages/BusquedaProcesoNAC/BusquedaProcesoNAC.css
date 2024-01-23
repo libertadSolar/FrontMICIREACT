@@ -1,0 +1,60 @@
+/* styles.css */
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cardContent {
+    width: 796.14px;
+    height: 553px;
+    top: 111px;
+    left: 381px;
+    border-radius: 17.56px;
+}
+
+.cardHeaderTitle {
+
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    font-size: 17.56px;
+    line-height: 20.57px;
+    color: #022E85;
+}
+
+
+.btn-buscar {
+    /* font-size: 13.76px;
+    line-height: 16.12px;
+    width: 100px;
+    height: 34.4px;
+    background: linear-gradient(#231663, #0092FF);
+    border-radius: 10%; */
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(170deg, #231663 0%, #0092ff 100%);
+    padding: 10px 30px;
+    border: none;
+    box-shadow: none;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-proceso-NAC {
+    width: 140px;
+    height: 34.4px;
+    border-radius: 0.86px;
+    border: 0.86px;
+    background-color: fff;
+}
+
+
